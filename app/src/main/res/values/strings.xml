@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CCashier</string>
+    <string name="tvHelp">Press Start Button</string>
+    <string name="btStart">Start</string>
+    <string name="tvC_call">Text from C</string>
+    <string name= "btTimer">Timer</string>>
+</resources>

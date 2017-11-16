@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/tvHelp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Small"
+        android:visibility="visible"
+        tools:textColor="@android:color/holo_green_dark" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        tools:paddingVertical="4dp">
+
+        <Button
+            android:id="@+id/btStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btStart" />
+
+        <Button
+            android:id="@+id/btDrivers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drivers" />
+
+        <Button
+            android:id="@+id/btSerial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="RS-232" />
+
+        <Button
+            android:id="@+id/btTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btTimer"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvC_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text from C"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tvTimerOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>
